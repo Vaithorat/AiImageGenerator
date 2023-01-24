@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Form, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { preview } from "../assets";
 import { getRandomPrompt } from "../utils";
 import { FormField, Loader } from "../components";
@@ -83,7 +83,7 @@ const CreatePost = () => {
             placeholder="John Doe"
             value={form.name}
             handleChange={handleChange}
-          />{" "}
+          />
           <FormField
             labelName="Prompt"
             type="text"
