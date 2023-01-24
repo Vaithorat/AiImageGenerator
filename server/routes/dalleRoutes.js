@@ -30,13 +30,10 @@ router.route('/').post(async (req, res) => {
     const image = aiResponse.data.data[0].b64_json;
     res.status(200).json({ photo: image });
   } catch (error) {
-<<<<<<< HEAD
-    console.log(error);
-    res.status(500).send(error?.response.data.error.message);
-=======
+
     console.error(error);
     res.status(500).send(error?.response.data.error.message || 'Something went wrong');
->>>>>>> 2fbddfe (fixed bugs)
+
   }
 });
 

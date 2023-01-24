@@ -31,9 +31,7 @@ const CreatePost = () => {
       alert("Please enter a prompt");
     }
   };
-<<<<<<< HEAD
-  const handleSubmit = () => {};
-=======
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (form.prompt && form.photo) {
@@ -58,7 +56,7 @@ const CreatePost = () => {
       alert("Please enter a prompt");
     }
   };
->>>>>>> 2fbddfe (fixed bugs)
+
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
