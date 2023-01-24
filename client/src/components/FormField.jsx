@@ -1,7 +1,7 @@
 import React from "react";
 
 const FormField = ({
-  LabelName,
+  labelName,
   type,
   name,
   placeholder,
@@ -17,7 +17,7 @@ const FormField = ({
           htmlFor={name}
           className="block text-sm font-medium text-gray-900"
         >
-          {LabelName}
+          {labelName}
         </label>
         {isSurpriseMe && (
           <button
