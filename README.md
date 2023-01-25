@@ -1,3 +1,4 @@
+
 # Dall-E AI Image Generation App
 
 This webapp uses the DALL-E API from OpenAI to generate AI-generated images based on text input. Users can enter a description of the image they want, and the app will use the DALL-E API to generate a unique image that matches the description. The app is built using modern web technologies and is easy to use, making it a great tool for anyone looking to generate unique and interesting images for use in their projects.
