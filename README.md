@@ -16,6 +16,9 @@ This webapp uses the latest web technologies to provide a smooth and user-friend
 The app has been deployed on 
 https://dalleimggen.netlify.app/
 
+and the server on
+https://dalleimage.onrender.com
+
 ## Environment Variables
 
 To run this project, you will need to add the following environment variables to your .env file
